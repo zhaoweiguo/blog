@@ -18,20 +18,20 @@ Drone是Go语言编写的，基于容器技术的CI/CD系统。是目前为止�
 
 打开部署好的Drone页面:
 
-![首页](/images/drones/drone_page_index1.png)
+![首页](https://img.zhaoweiguo.com/blog/drones/drone_page_index1.png)
 
 
 搜索你要做自动化部署的项目(这儿是test-drone项目):
 
-![搜索页](/images/drones/drone_page_active.png)
+![搜索页](https://img.zhaoweiguo.com/blog/drones/drone_page_active.png)
 
 点击『ACTIVATE』进入:
 
-![激活前页](/images/drones/drone_page_active2.png)
+![激活前页](https://img.zhaoweiguo.com/blog/drones/drone_page_active2.png)
 
 激活成功进入配置页。注意，Project settings要选择Trusted，因为要挂载宿主机文件系统；其他按需要选择。
 
-![配置页](/images/drones/drone_page_active3.png)
+![配置页](https://img.zhaoweiguo.com/blog/drones/drone_page_active3.png)
 
 默认配置文件是.drone.yml, 一般也就用这个文件。到此项目激活成功，可以开始下一步行动了。
 
@@ -39,7 +39,7 @@ Drone是Go语言编写的，基于容器技术的CI/CD系统。是目前为止�
 
 进入配置页面，输入Secret Name和对应的Secret Value后点击「ADD A SECRET」，就成功添加私钥
 
-![配置页](/images/drones/drone_page_secret.png)
+![配置页](https://img.zhaoweiguo.com/blog/drones/drone_page_secret.png)
 
 #### Docker Hub相关私钥
 
@@ -59,7 +59,7 @@ docker密码对应key:   docker_pass
 
 钉钉组(3人可创建组)  ->  组设置  -> 小组助手  ->  新增
 
-![钉钉助手](/images/drones/drone_dingtalk.png)
+![钉钉助手](https://img.zhaoweiguo.com/blog/drones/drone_dingtalk.png)
 
 选择「自定义」后成功创建助手，查看webhook，如:
 https://oapi.dingtalk.com/robot/send?access_token=d4a22b306d1c15a9e80504087cde8e637b8c66fa024554ffef0926a4dea1xxxx
@@ -152,11 +152,11 @@ trigger:
 
 把上面项目提交后，打开构建页面如下:
 
-![构建结果](/images/drones/drone_build1.png)
+![构建结果](https://img.zhaoweiguo.com/blog/drones/drone_build1.png)
 
 钉钉也收到通知:
 
-![构建结果](/images/drones/drone_dingtalk2.png)
+![构建结果](https://img.zhaoweiguo.com/blog/drones/drone_dingtalk2.png)
 
 因为没有输入正确的docker_username，所以这次部署失败了，但不影响大家对整体的了解。
 

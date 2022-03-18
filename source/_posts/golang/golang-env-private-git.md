@@ -13,10 +13,10 @@ categories:
 本人使用Idea做Golang开发，之前一直是用公有项目，可通过快捷键自动获取(如下图)，但私有git项目则不能如此顺利
 
 不使用Go Modules(vgo)界面:
-![不使用Go Modules(vgo)](/images/golangs/go-get-git-private1.png)
+![不使用Go Modules(vgo)](https://img.zhaoweiguo.com/blog/golangs/go-get-git-private1.png)
 
 使用Go Modules(vgo):
-![使用Go Modules(vgo)](/images/golangs/go-get-git-private2.png)
+![使用Go Modules(vgo)](https://img.zhaoweiguo.com/blog/golangs/go-get-git-private2.png)
 
 <!--more-->
 
@@ -76,11 +76,11 @@ i:/C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
 ```
 打开Keychain Access.app(Mac专用，其他系统请自行search)，搜索关键词找到 DigiCert SHA2 Secure Server CA:
 
-![默认](/images/golangs/go-get-git-private3.png)
+![默认](https://img.zhaoweiguo.com/blog/golangs/go-get-git-private3.png)
 
 修改成可信任(Always Trust):
 
-![修改成可信任](/images/golangs/go-get-git-private4.png)
+![修改成可信任](https://img.zhaoweiguo.com/blog/golangs/go-get-git-private4.png)
 
 
 ## 方法2: 使用https协议（用户名+密码）

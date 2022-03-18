@@ -512,11 +512,11 @@ db.zwg_log.find({
 
 速度超快的文档扫描了3次:
 
-![速度超快的文档扫描了3次](/images/dbs/mongodbs/optimize_index_zwg_log1.png)
+![速度超快的文档扫描了3次](https://img.zhaoweiguo.com/blog/dbs/mongodbs/optimize_index_zwg_log1.png)
 
 用另一个source_id文档扫描变成了2.2万次:
 
-![用另一个source_id文档扫描变成了2.2万次](/images/dbs/mongodbs/optimize_index_zwg_log2.png)
+![用另一个source_id文档扫描变成了2.2万次](https://img.zhaoweiguo.com/blog/dbs/mongodbs/optimize_index_zwg_log2.png)
 
 > 这种只有数据不同，其他都相同的，基本可以判断为『就是数据比较特殊，并没有代表性』
 
@@ -663,10 +663,10 @@ mongod 进程重启
 现场如下：
 
 1、is_read=1时，使用索引 ``source_id_1.0_is_delete_1.0_time_created_-1``
-![is_read=1时](/images/dbs/mongodbs/optimize_index_zwg_log4.png)
+![is_read=1时](https://img.zhaoweiguo.com/blog/dbs/mongodbs/optimize_index_zwg_log4.png)
 
 2、is_read=0时，使用索引 ``source_id_1_user_id_1_is_delete_1_is_read_1``
-![is_read=1时](/images/dbs/mongodbs/optimize_index_zwg_log3.png)
+![is_read=1时](https://img.zhaoweiguo.com/blog/dbs/mongodbs/optimize_index_zwg_log3.png)
 
 后续待研究确认……
 

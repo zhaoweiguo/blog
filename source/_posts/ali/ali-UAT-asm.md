@@ -13,7 +13,7 @@ tags:
 
 我正在学习Istio，正巧碰到阿里云的服务网格(Alibaba Cloud Service Mesh，简称 ASM)进入UAT环境 [1]，于是报名并有幸能抢先体验一把阿里的Service Mesh。阿里这边对UAT的要求是「以真实客户视角从产品开通、控制台易用性、功能完整性和有效性以及帮助文档的完整性、准确性和易读性等维度体验评测产品，在规定时间完成产品评测后按照提交建议和评分模板完成最后的体验建议提交和评分。」UTA评分标准如下图:
 
-![UAT评分标准](/images/alis/asm_uat1.png)
+![UAT评分标准](https://img.zhaoweiguo.com/blog/alis/asm_uat1.png)
 
 ### 
 

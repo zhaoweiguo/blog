@@ -130,7 +130,7 @@ drone支持各git仓库平台, 如github, gitlab, gogs, gitea等。使用不同�
 如下图所示:
 ```
 
-![Application页面](/images/drones/gitlab_token_create.png)
+![Application页面](https://img.zhaoweiguo.com/blog/drones/gitlab_token_create.png)
 
 创建成功页面如下图所示:
 ```
@@ -138,7 +138,7 @@ drone支持各git仓库平台, 如github, gitlab, gogs, gitea等。使用不同�
 Application ID和Secret的值, 后面会用到
 ```
 
-![Application创建成功页面](/images/drones/gitlab_token_created.png)
+![Application创建成功页面](https://img.zhaoweiguo.com/blog/drones/gitlab_token_created.png)
 
 
 #### 创建共享密钥

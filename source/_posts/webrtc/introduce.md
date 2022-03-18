@@ -34,7 +34,7 @@ WebRTC的Demo项目: https://github.com/webrtc/apprtc
 ```
 
 架构图：
-![WebRTC 1 对 1 音视频实时通话过程示意图](/images/webrtcs/architect1.png)
+![WebRTC 1 对 1 音视频实时通话过程示意图](https://img.zhaoweiguo.com/blog/webrtcs/architect1.png)
 
 
 # 安装 WebRTC 服务器
@@ -314,19 +314,19 @@ nginx -s reload
 
 打开浏览器，输入 ``https://webrtc.zhaoweiguo.com`` ，页面显示如下：
 
-![首页](/images/webrtcs/web-show1.png)
+![首页](https://img.zhaoweiguo.com/blog/webrtcs/web-show1.png)
 
 点击连接，后
 
-![等待对方连接页面](/images/webrtcs/web-show2.png)
+![等待对方连接页面](https://img.zhaoweiguo.com/blog/webrtcs/web-show2.png)
 
 可以看到下面等待其他人加入的链接，使用电脑（手机）浏览器打开这个链接，后会出现（如图我自己手机打开）
 
-![准备连接页面](/images/webrtcs/web-show4.jpg)
+![准备连接页面](https://img.zhaoweiguo.com/blog/webrtcs/web-show4.jpg)
 
 点击「Join」后，显示连接成功页面
 
-![连接成功页面](/images/webrtcs/web-show5.jpg)
+![连接成功页面](https://img.zhaoweiguo.com/blog/webrtcs/web-show5.jpg)
 
 # Docker版实现
 

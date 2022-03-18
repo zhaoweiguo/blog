@@ -33,25 +33,25 @@ tags:
 
 隐约间我想起，以前好像用过类似的插件。于是发现了早已安装的 **TamperMonkey**，点击「Find new scripts...」打开了[这个](https://www.tampermonkey.net/scripts.php)页面。然后找到了脚本资源的存放库[GreasyFork](https://greasyfork.org/)和[OpenUserJS](https://openuserjs.org/)，然后试图找到github加速的脚本，试了「github」「加速」「speedup」等关键词搜索，打开页面类似下图，没有找到合适的脚本：
 
-![greasyfork.org按关键词github搜索](/images/chromes/plugin_tampermonkey1.png)
+![greasyfork.org按关键词github搜索](https://img.zhaoweiguo.com/blog/chromes/plugin_tampermonkey1.png)
 
-![openuserjs.org按关键词github搜索](/images/chromes/plugin_tampermonkey2.png)
+![openuserjs.org按关键词github搜索](https://img.zhaoweiguo.com/blog/chromes/plugin_tampermonkey2.png)
 
 # 成功安装「暴力猴」
 
 过了大约1个小时，我再次试了下，下载成功。安装时，先打开[扩展程序页面](chrome://extensions/)，再打开「开发者模式」，对这块不熟悉的同学可以看下面图片：
 
-![openuserjs.org按关键词github搜索](/images/chromes/plugin_tampermonkey3.png)
+![openuserjs.org按关键词github搜索](https://img.zhaoweiguo.com/blog/chromes/plugin_tampermonkey3.png)
 
 最后，把下载的crx文件拖动到浏览器中按提示安装就ok了。
 
 打开github网站，在「暴力猴」上点击「Find scripts for this site」打开[页面](https://greasyfork.org/zh-CN/scripts/by-site/github.com) 第一个就是我们要找的「Github 镜像访问，加速下载」，如下图所示：
 
-![openuserjs.org按关键词github搜索](/images/chromes/plugin_tampermonkey4.png)
+![openuserjs.org按关键词github搜索](https://img.zhaoweiguo.com/blog/chromes/plugin_tampermonkey4.png)
 
 脚本安装成功后，再打开github，可以看到「暴力猴」和「TamperMonkey」都生效了
 
-![openuserjs.org按关键词github搜索](/images/chromes/plugin_tampermonkey5.png)
+![openuserjs.org按关键词github搜索](https://img.zhaoweiguo.com/blog/chromes/plugin_tampermonkey5.png)
 
 # 总结
 

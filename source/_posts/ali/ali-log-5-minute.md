@@ -98,10 +98,10 @@ status>200 |
 
 索引分为两种:全文索引和指定字段查询。一般情况下建议开启全文索引，结构化的数据建议指定字段查询。查询时默认先按字段查询，查询不到会再按全文索引查询。如图所示content是json结构的字段，这儿注意headers.remoteip是2级的，即解析这种结构{content: {remote:{ip:'127.0.0.1'}}}
 
-![索引实例](/images/alis/log_search_index1.png)
+![索引实例](https://img.zhaoweiguo.com/blog/alis/log_search_index1.png)
 
 索引建立完成后，可以在快速分析看到:
-![快速分析](/images/alis/log_search_index2.png)
+![快速分析](https://img.zhaoweiguo.com/blog/alis/log_search_index2.png)
 
 
 ##### 其他操作

@@ -50,7 +50,7 @@ tags:
     2. 之前设备已经完成二进制数据编码，不想修改相关代码
 ```
     
-![数据解析图](/images/alis/iot_data_parse1.png)
+![数据解析图](https://img.zhaoweiguo.com/blog/alis/iot_data_parse1.png)
 
 * 数据转化这部分逻辑你要实现，本质是实现下面2个函数:
 ```
@@ -172,7 +172,7 @@ tags:
 
 * 设备通过MQTT, CoaP等协议对接阿里iot，阿里iot后台管理也可以通过数据分析，运维监控看到主要数据和通用的相关汇总。但如果你想把数据保存到自己服务器，或需要更精细的使用，就用到数据流转功能了。
 
-![数据流转图](/images/alis/iot_data_flow2.png)
+![数据流转图](https://img.zhaoweiguo.com/blog/alis/iot_data_flow2.png)
 
 * 如上图所示，你可以直接订阅相关事件，设备上报相关数据后，会直接通过http2协议推送给云端。
 
